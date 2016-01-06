@@ -25,6 +25,14 @@ a {
   a:hover {
     text-decoration: underline; }
 
+.hosted-by-github img {
+  opacity: .8;
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
